@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash&Frame</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="logo.png">
+   
+    
+</head>
+
+<body> 
+
+    <header class="header">
+        <div class="header-1">
+
+            <a href="#" class="logo"><i class="fas fa-camera-retro">  Flash&Frame</i></a>
+
+            <form action="" class="search-form">
+            <input type="search" name=""placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="search-btn" class="fas fa-shopping-cart"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+
+            </div>
+            
+        </div>
+        
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#blogs">Work</a>
+                <a href="#packages">Services</a>
+                <a href="#author">Subscribe</a>
+                <a href="#shop">Shop</a>
+                <a href="#contacts">About</a>
+            </nav>
+        </div>
+
+        <nav class="bottom-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#blogs" class="fas fa-paperclip"></a>
+            <a href="#packages" class="fas fa-image"></a>
+            <a href="#author" class="fas fa-pencil"></a>
+            <a href="#shop" class="fas fa-shopping-cart"></a>
+            <a href="#contacts" class="fas fa-phone"></a>
+        </nav>
+
+    </header>
+ 
+        <div class="login-form-container" a href="#login">
+
+            <div id="close-login-btn" class="fas fa-times" a href="#home"></div>
+
+            <!--- log in form-->
+
+            <form action="Helloworld.php" method="POST">
+                <h3>register</h3>
+                <span>First name</span>
+                    <input type="text" name="firstname" class="box" placeholder="enter your name" id="firstname">
+                <span>Middle name</span>
+                    <input type="text" name="middlename" class="box" placeholder="enter your midle name" id="middlename">
+                <span>Last name</span>
+                    <input type="text" name="lastname" class="box" placeholder="enter your last name" id="lastname">
+                <span>Email</span>
+                    <input type="email" name="email" class="box" placeholder="enter your password" id="email">
+                <span>Password</span>
+                    <input type="password" name="password" class="box" placeholder="enter your password" id="password">
+
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me"> Remember Me</label>
+                </div>
+                <input type="submit" value="Sign In" class="btn">
+            </form>
+        </div>
+
+
+        <!--  home section -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>FLASH & FRAME</h3>
+                <p style="text-justify: auto;">A <b style="color: #9b9246">modern photobooth</b> business dedicated to transforming your events into unforgettable celebrations. Whether it's 
+                    a wedding, corporate event, birthday, or any special gathering, we provide a unique and interactive photo experience that captures the joy and magic of your moments.</p>
+                <a href="#gallery" class="btn">Book Now</a>
+            </div>
+            
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="photo5.jpg" alt=""></a>               
+                    <a href="#" class="swiper-slide"><img src="photo6.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="photo7.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="photo8.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="photo9.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="photo4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="photo2.png" alt=""></a>
+                </div>
+                <img src="stand.png" class="stand" alt="">
+            </div>
+            <img src="tagline.png" class="tagline" alt="">
+                
+        </div>
+        
+
+    </section>
+
+
+     <!--ICON SECTION-->
+     <section class="icon-container">
+        <div class="icons">
+            <i class="fa fa-camera-alt"></i>
+            <div class="content">
+                <h3>Captivating Moments</h3>
+                <p>Tailored photography for your special memories</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-thumbs-up"></i>
+            <div class="content">
+                <h3>Professional Shoots</h3>
+                <p> High-quality portraits and event coverage</p>
+            </div>
+        </div>
+        
+        <div class="icons">
+            <i class="fa fa-eye"></i>
+            <div class="content">
+                <h3>Artistic Vision</h3>
+                <p> Unique and creative photography services</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-print"></i>
+            <div class="content">
+                <h3>Custom Prints</h3>
+                <p>Stunning prints delivered to your doorstep</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+   
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Our Work</span> </h1>
+    
+    <p style="text-justify: auto;">A showcase of our dedication, creativity, and passion for <b style="color: #9b9246">capturing</b> life's most meaningful moments. Whether it's <b style="color: #9b9246">preserving</b> the laughter of a wedding day, the energy of an event, or the intricate details of a product shoot, we strive to create <b style="color: #9b9246">timeless</b> visuals that tell your story. 
+        Through our lens, every frame becomes a piece of art, crafted with <b style="color: #9b9246">precision</b> and care, reflecting our commitment to excellence in photography.</p>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="ou1.png">
+                </div>
+                <div class="content">
+                    <h3>A Journey of Vision and Passion</h3>
+                    <p style="text-justify: auto;">As emerging photographers, we combine fresh perspectives with a deep passion for storytelling, 
+                        capturing moments that speak louder than words.</p> 
+                    <h4>Wedding</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="ou6.png">
+                </div>
+                <div class="content">
+                    <h3>Every Frame, a Step Forward</h3>
+                    <p>Each project allows us to refine our craft, ensuring we deliver creativity and heart in every shot.</p> <br> <br>
+                    <h4>Birthday</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="ou3.png">
+                </div>
+                <div class="content">
+                    <h3>Growing with Every Click</h3>
+                    <p>We approach every session with enthusiasm and a commitment to creating images that resonate and endure.</p>
+                    <h4>Christening</h4>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="ou4.png">
+                </div>
+                <div class="content">
+                    <h3>Capturing Moments</h3>
+                    <p>Every photo we take is a chapter in the story we're building—a legacy of creativity, emotion, and artistry.</p> <br>
+                    <h4>Memories</h4> 
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="ou5.png">
+                </div>
+                <div class="content">
+                    <h3>Driven by Your Moments</h3>
+                    <p>Your trust fuels our dedication to delivering photography that transforms fleeting moments into lifelong treasures.</p>
+                    <h4>Anniversary</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+    
+<!-- service section start -->
+<section class="packages" id="packages">
+
+    <h1 class="heading-title">SERVICES</h1>
+ 
+    <div class="box-container">
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser1.png" alt="">
+          </div>
+          <div class="content">
+             <h3>360° Video Booth</h3>
+             <p>Slow-motion videos<br>
+                Multi-angle camera setup <br>
+                Props and interactive experience</p> 
+            <p><b>Price: ₱15,000-₱25,000 for 2 hours <br>
+                (Additional hours: ₱2,500-₱5,000/hour)</p> </b>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser2.png" alt="">
+          </div>
+          <div class="content">
+             <h3>Open-Air Photo Booth</h3>
+             <p>Spacious setup for larger groups<br>
+                Custom backdrops and props<br>
+                Instant prints and digital copies</p>
+                <p><b>Price: ₱10,000-₱15,000 for 2 hours <br>
+                    (Additional hours: ₱1,500-₱2,500/hour)</p> </b>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser3.png" alt="">
+          </div>
+          <div class="content">
+             <h3>Selfie Station</h3>
+             <p>Compact, self-service photo booth <br>
+                Digital-only photos, GIFs, and Boomerangs <br>
+                Instant sharing via text or email</p>
+                <p><b>Price: ₱6,000-₱10,000 for 4 hours <br>
+                (Additional hours: ₱1,500-₱2,500/hour)</p> </b>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser4.png" alt="">
+          </div>
+          <div class="content">
+             <h3>Glam Booth</h3>
+             <p>Glam filter with studio lighting <br>
+                Custom backdrops and overlays <br>
+                Themed props and branding</p>
+                <p><b>Price: ₱12,000-₱18,000 for 3 hours <br>
+                    (Additional hours: ₱3,000-₱5,000/hour)</p> </b>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser5.png" alt="">
+          </div>
+          <div class="content">
+             <h3>AR Booth</h3>
+             <p>Virtual props and backgrounds <br>
+                Interactive AR effects<br>
+                Instant digital sharing</p>
+                <p><b>Price: ₱12,000-₱18,000 for 3 hours <br>
+                    (Additional hours: ₱3,000/hour)</p> </b>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <div class="image">
+             <img src="ser6.png" alt="">
+          </div>
+          <div class="content">
+             <h3>Hashtag Printer Booth</h3>
+             <p>Prints from social media posts with  hashtag <br>
+                Customizable print templates <br>
+                Digital and physical sharing</p>
+                <p><b>Price: ₱10,000-₱15,000 for 3 hours <br>
+                    (Additional hours: ₱2,500/hour)</p> </b>
+          </div>
+       </div>
+ 
+    </div> <br> <br>
+ 
+ </section>
+ 
+<!-- service section end -->
+
+        <!-- About the Author-->
+
+    <section class="author" id="author">
+        <form action="https://formsubmit.co/el/diyewa" method="POST">
+            <h3>Subscribe for latest updates</h3>
+                <input type="email" name="" placeholder="enter your email" id="" class="box">
+        </form> 
+
+    </section>
+
+            <!--    Shop    -->
+
+    <section class="shop" id="shop">
+
+        <h1 class="heading"> <span>OTHER OFFERS</span> </h1>
+        
+        <div class="container">
+            <header0>
+                <h1 style="text-align: center;"> </h1>
+                <div class="shopping">
+                    <img src="image/shopping.svg"> 
+                    <span class="quantity">0</span>
+                </div>
+            </header0>
+
+            <div class="list">
+            
+            </div>
+        </div>
+        
+        <div class="card">
+            <h1>Card</h1>
+            <ul class="listCard">
+            </ul>
+
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+
+</div>
+</section>
+
+
+   
+    
+
+   <!-- reviews section starts  -->
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>CLIENT'S REVIEWS</span> </h1> <br>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="revg.png" alt="">
+                <h3>Maria Santos</h3>
+                <p>The photobooth was such a hit at our wedding! The custom backdrop and props made every photo look amazing, and our guests had so much fun. Highly recommended!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="revb.png" alt="">
+                <h3>Juan Dela Cruz</h3>
+                <p>The instant sharing feature is a game-changer! Everyone loved how they could get their photos sent directly to their phones. Great service and top-notch quality.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="revg.png" alt="">
+                <h3>Anna Reyes</h3>
+                <p>I was amazed at the quality of the prints and how fast we got them! The team was so professional and ensured everything went smoothly during our corporate event.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="revb.png" alt="">
+                <h3>Paulo Garcia</h3>
+                <p>The AR filters were a unique touch that everyone loved! It added so much fun to our birthday celebration. Will definitely book again for future events.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="revg.png" alt="">
+                <h3>Sofia Cruz</h3>
+                <p>Our company party was a success, thanks to the photobooth! The branded templates and fun props were a big hit. Thank you for the excellent service! Thank you so much, again!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="revb.png" alt="">
+                <h3>Michael Tan</h3>
+                <p>The team went above and beyond to make sure everything was perfect. The touchscreen interface was so easy to use, and the photos came out beautifully. Thank you!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+<!-- reviews section ends -->
+
+
+
+
+
+
+    
+
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>flashframeco.</h3>
+                <p style="font-size: 30px; font-family:Georgia, 'Times New Roman', Times, serif">Make your mark.</p>
+                <p style="font-size: 20px; font-family: 'Courier New', Courier, monospace; border: 3.5px solid #474747; display: inline-block; border-radius: 50px; width: 200px; height: 40px; text-align: center; line-height: 17.5px;">Work with us</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i>Our Works</a>
+                <a href="#gallery" class="links"><i class="fas fa-arrow-right"></i>Services</a>
+                <a href="#author" class="links"><i class="fas fa-arrow-right"></i>Other Offers</a>
+                <a href="#reviews" class="links"><i class="fas fa-arrow-right"></i>Reviews</a>  
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="privacypolicy.html" class="links"><i class="fas fa-arrow-right"></i>PRIVACY POLICY</a>
+                <a href="ourservice.html" class="links"><i class="fas fa-arrow-right"></i>OUR SERVICE</a>
+                <a href="payment.html" class="links"><i class="fas fa-arrow-right"></i>PAYMENT</a>  
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+639077456733"class="links"><i class="fas fa-phone"></i>+639 07745 6733</a>
+                <a href="mailto:flash&frame.com" class="links"><i class="fas fa-envelope"></i>flash&frame@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Lucban, Quezon - 4328</a>
+            </div>
+
+
+        </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+
+        <div class="credit">created by <span>Flash&Frame</span>  | ALL RIGHTS RESERVED!</div>
+        
+
+    </section>
+    
+    
+    <!--loader-->
+    <div class="loader-container">
+        <img src="loader1.gif" alt="">
+    </div>
+
+    
+    
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
+
+
+</script>
+
+    
+<script src="main.js">
+
+</script>
+</body>
+</html>
